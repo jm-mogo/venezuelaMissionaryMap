@@ -12,6 +12,12 @@
         "img": "./familyPictures/caracas.jpg"
     },
     {
+        "id": "laGuaira",
+        "family": "Ramirez",
+        "location": "La Guaira",
+        "img": "./familyPictures/laGuaira.jpg"
+    },
+    {
         "id": "maracaibo",
         "family": "Ferrer",
         "location": "Maracaibo",
