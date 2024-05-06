@@ -1,0 +1,51 @@
+.map {
+
+    margin-top: -8%;
+    width: 62vw;
+    height: 62vw;
+    background-image: url("./map.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.state {
+    position: relative;
+    font-size: 1.6vw;
+    width: 71px;
+}
+
+.state:hover {
+    cursor: pointer;
+}
+
+.info {
+    position: absolute;
+    top:0;
+    right: 0;
+    height: 400px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: bisque;
+}
+
+.family-picture {
+    max-width: 70%;
+}
+
+#cajaSeca {
+    top: 33%;
+    left: 16%;
+}
+
+#caracas {
+    top: 23%;
+    left: 45%;
+}
+
+#maracaibo {
+    top: 16%;
+    left: 10%;
+}

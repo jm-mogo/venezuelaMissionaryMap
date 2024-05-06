@@ -1,0 +1,17 @@
+[
+    {
+        "id": "cajaSeca",
+        "location": "Caja Seca",
+        "img": "./familyPictures/cajaSeca.jpg"
+    },
+    {
+        "id": "caracas",
+        "location": "Caracas",
+        "img": "./familyPictures/caracas.jpg"
+    },
+    {
+        "id": "maracaibo",
+        "location": "Maracaibo",
+        "img": "./familyPictures/maracaibo.jpg"
+    }
+]
