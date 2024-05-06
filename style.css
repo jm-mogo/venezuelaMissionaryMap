@@ -11,11 +11,19 @@
 .state {
     position: relative;
     font-size: 1.6vw;
-    width: 100px;
+    display: flex;
+    background-color: red;
+    border-radius: 50%;
+    border: black solid 1px;
+    justify-content: center;
+    align-items: center;
+    width: 2vw;
+    height: 2vw;
 }
 
 .state:hover {
     cursor: pointer;
+    background-color: brown;
 }
 
 .info {
@@ -36,15 +44,15 @@
 
 #cajaSeca {
     top: 33%;
-    left: 16%;
+    left: 20%;
 }
 
 #caracas {
     top: 23%;
-    left: 45%;
+    left: 46%;
 }
 
 #maracaibo {
-    top: 16%;
-    left: 10%;
+    top: 15%;
+    left: 13%;
 }
