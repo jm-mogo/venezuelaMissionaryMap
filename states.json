@@ -1,16 +1,19 @@
 [
     {
         "id": "cajaSeca",
+        "family": "Mogollon",
         "location": "Caja Seca",
         "img": "./familyPictures/cajaSeca.jpg"
     },
     {
         "id": "caracas",
+        "family": "Paez",
         "location": "Caracas",
         "img": "./familyPictures/caracas.jpg"
     },
     {
         "id": "maracaibo",
+        "family": "Ferrer",
         "location": "Maracaibo",
         "img": "./familyPictures/maracaibo.jpg"
     }

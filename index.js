@@ -27,11 +27,11 @@ for (let i = 0; i < states.length; i++) {
 
 console.log();
 
-function createCart(state) {
+function createCart(church) {
     CART.innerHTML = `
-        <p>Location: ${state.location}</p>
-        <p>Family: Mogollon</p>
+        <p>Location: ${church.location}</p>
+        <p>Family: ${church.family}</p>
         <p>Founded: long ago</p>
-        <img src="${state.img}" alt="" class="family-picture">
+        <img src="${church.img}" alt="" class="family-picture">
     `;
 }
