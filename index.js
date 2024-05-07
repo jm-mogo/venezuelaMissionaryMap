@@ -25,7 +25,6 @@ for (let i = 0; i < states.length; i++) {
     });
 }
 
-console.log();
 
 function createCart(church) {
     CART.innerHTML = `

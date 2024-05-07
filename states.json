@@ -22,5 +22,11 @@
         "family": "Ferrer",
         "location": "Maracaibo",
         "img": "./familyPictures/maracaibo.jpg"
+    },
+    {
+        "id": "margarita",
+        "family": "Bolivar",
+        "location": "Margarita",
+        "img": "./familyPictures/margarita.jpg"
     }
 ]
