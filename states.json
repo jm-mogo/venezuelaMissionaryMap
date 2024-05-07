@@ -28,5 +28,11 @@
         "family": "Bolivar",
         "location": "Margarita",
         "img": "./familyPictures/margarita.jpg"
+    },
+    {
+        "id": "valencia",
+        "family": "Castillo",
+        "location": "Valencia",
+        "img": "./familyPictures/valencia.jpg"
     }
 ]
