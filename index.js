@@ -30,8 +30,7 @@ for (let i = 0; i < states.length; i++) {
 
 
 function createCart(church) {
-    CART.innerHTML = ""
-    CART.innerHTML += `
+    CART.innerHTML = `
         <span class="close" onclick="closeModal()">&times;</span>
         <p>${church.name}</p>
         <p>Location: ${church.location}</p>

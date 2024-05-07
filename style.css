@@ -1,7 +1,8 @@
 .map {
+    margin: auto;
     margin-top: -8%;
-    width: 62vw;
-    height: 62vw;
+    width: 64vw;
+    height: 64vw;
     background-image: url("./map.jpg");
     background-repeat: no-repeat;
     background-size: contain;
@@ -46,6 +47,9 @@
 }
 
 .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: #fefefe;
     margin: 15% auto; /* 15% from the top and centered */
     padding: 20px;
@@ -55,6 +59,7 @@
 
 /* The Close Button */
 .close {
+    align-self: flex-end;
     color: #aaa;
     float: right;
     font-size: 28px;
