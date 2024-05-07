@@ -28,9 +28,9 @@ for (let i = 0; i < states.length; i++) {
 
 function createCart(church) {
     CART.innerHTML = `
+        <p>${church.name}</p>
         <p>Location: ${church.location}</p>
-        <p>Family: ${church.family}</p>
-        <p>Founded: long ago</p>
         <img src="${church.img}" alt="" class="family-picture">
+        <p>Family: ${church.family}</p>
     `;
 }

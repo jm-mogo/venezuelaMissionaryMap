@@ -1,36 +1,42 @@
 [
     {
         "id": "cajaSeca",
+        "name": "IBBCS",
         "family": "Mogollon",
         "location": "Caja Seca",
         "img": "./familyPictures/cajaSeca.jpg"
     },
     {
         "id": "caracas",
+        "name": "IBBVA",
         "family": "Paez",
         "location": "Caracas",
         "img": "./familyPictures/caracas.jpg"
     },
     {
         "id": "laGuaira",
+        "name": "IBB La Espada",
         "family": "Ramirez",
         "location": "La Guaira",
         "img": "./familyPictures/laGuaira.jpg"
     },
     {
         "id": "maracaibo",
+        "name": "IBB Maracaibo",
         "family": "Ferrer",
         "location": "Maracaibo",
         "img": "./familyPictures/maracaibo.jpg"
     },
     {
         "id": "margarita",
+        "name": "IBB Margarita",
         "family": "Bolivar",
         "location": "Margarita",
         "img": "./familyPictures/margarita.jpg"
     },
     {
         "id": "valencia",
+        "name": "IBB Valencia",
         "family": "Castillo",
         "location": "Valencia",
         "img": "./familyPictures/valencia.jpg"
