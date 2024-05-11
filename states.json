@@ -40,5 +40,12 @@
         "family": "Castillo",
         "location": "Valencia",
         "img": "./familyPictures/valencia.jpg"
+    },
+    {
+        "id": "tachira",
+        "name": "Iglesia Bautista Biblia para Todos",
+        "family": "Tremaria",
+        "location": "Tachira, San Cristobal",
+        "img": "./familyPictures/tachira.jpg"
     }
 ]

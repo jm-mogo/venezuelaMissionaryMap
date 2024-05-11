@@ -9,22 +9,30 @@ fetch("./states.json")
     })
     .then(function (data) {
         STATES = data;
+        printPoints(STATES);
     })
     .catch(function (error) {
         console.log("An error occurred:", error);
     });
 
-let states = document.getElementsByClassName("state");
-
-for (let i = 0; i < states.length; i++) {
-    states[i].addEventListener("click", (e) => {
-        STATES.forEach((state) => {
-            if (state.id == e.target.id) {
-                createCart(state);
-                MODAL.style.display = "block";
-            }
-        });
+function clickPoint(e) {
+    STATES.forEach((state) => {
+        if (state.id == e.target.id) {
+            createCart(state);
+            MODAL.style.display = "block";
+        }
     });
+}
+
+function printPoints(states) {
+    let map = document.getElementById("map");
+    for (let i = 0; i < states.length; i++) {
+        let point = document.createElement("div");
+        point.className = "state";
+        point.id = states[i].id;
+        point.addEventListener("click", clickPoint);
+        map.appendChild(point);
+    }
 }
 
 function createCart(church) {
