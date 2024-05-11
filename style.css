@@ -1,3 +1,7 @@
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
 .map {
     margin: auto;
     margin-top: -8%;
@@ -31,6 +35,7 @@
 
 .family-picture {
     max-width: 70%;
+    max-height: 70%;
 }
 
 .modal {
@@ -47,23 +52,31 @@
 }
 
 .info {
+    margin: 40px auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: #fefefe;
-    margin: 15% auto; /* 15% from the top and centered */
-    padding: 20px;
     border: 1px solid #888;
-    width: 80%; /* Could be more or less, depending on screen size */
+    border-radius: 10px;
+    width: 90%; 
+    height: 80vh;
+    max-width: 600px;
+}
+
+.churchName {
+    font-size: 2rem;
+    font-weight: bold;
 }
 
 /* The Close Button */
 .close {
     align-self: flex-end;
-    color: #aaa;
+    color: #5c5c5c;
     float: right;
-    font-size: 28px;
+    font-size: 4rem;
     font-weight: bold;
+    margin-right: 20px;
   }
   
   .close:hover,

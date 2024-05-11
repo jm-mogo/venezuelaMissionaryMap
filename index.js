@@ -1,7 +1,6 @@
 const CART = document.getElementById("cart");
-const MODAL = document.getElementById("modal")
+const MODAL = document.getElementById("modal");
 let CLOSE = document.getElementsByClassName("close")[0];
-
 
 let STATES = [];
 fetch("./states.json")
@@ -22,17 +21,16 @@ for (let i = 0; i < states.length; i++) {
         STATES.forEach((state) => {
             if (state.id == e.target.id) {
                 createCart(state);
-                MODAL.style.display = "block"
+                MODAL.style.display = "block";
             }
         });
     });
 }
 
-
 function createCart(church) {
     CART.innerHTML = `
         <span class="close" onclick="closeModal()">&times;</span>
-        <p>${church.name}</p>
+        <p class="churchName">${church.name}</p>
         <p>Location: ${church.location}</p>
         <img src="${church.img}" alt="family" class="family-picture">
         <p>Family: ${church.family}</p>
@@ -40,12 +38,12 @@ function createCart(church) {
 }
 
 function closeModal() {
-    MODAL.style.display = "none"
+    MODAL.style.display = "none";
 }
 
 // When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
+window.onclick = function (event) {
     if (event.target == modal) {
-      modal.style.display = "none";
+        modal.style.display = "none";
     }
-  } 
+};
