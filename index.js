@@ -40,7 +40,11 @@ function createCart(church) {
         <span class="close" onclick="closeModal()">&times;</span>
         <p class="churchName">${church.name}</p>
         <div class="location"> 
+        <a href="${church.locationUrl ? church.locationUrl : "#"}" target="${
+        church.locationUrl ? "_blank" : ""
+    }">
         <span class="locationIcon"></span>
+        </a>
         <p> ${church.location}</p>
         </div>
         

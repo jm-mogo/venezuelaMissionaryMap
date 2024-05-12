@@ -11,6 +11,7 @@
         "name": "IBBVA",
         "family": "Paez",
         "location": "Caracas",
+        "locationUrl": "https://maps.app.goo.gl/PboYpmG1gFyaP4FZ8",
         "img": "./familyPictures/caracas.jpg"
     },
     {
@@ -18,6 +19,7 @@
         "name": "IBB La Espada",
         "family": "Ramirez",
         "location": "La Guaira",
+        "locationUrl": "https://maps.app.goo.gl/eUBhhZpb8uyDKyKC7",
         "img": "./familyPictures/laGuaira.jpg"
     },
     {
@@ -39,6 +41,7 @@
         "name": "IBB Valencia",
         "family": "Castillo",
         "location": "Valencia, Carabobo",
+        "locationUrl": "https://maps.app.goo.gl/EgmizJ2twRWQM3vJ8",
         "img": "./familyPictures/valencia.jpg"
     },
     {
@@ -46,6 +49,7 @@
         "name": "Iglesia Bautista Biblia para Todos",
         "family": "Tremaria",
         "location": "Tachira, San Cristobal",
+        "locationUrl": "https://maps.app.goo.gl/dc8Vr3oVeziG1Sex8",
         "img": "./familyPictures/tachira.jpg"
     },
     {
