@@ -38,7 +38,7 @@
         "id": "valencia",
         "name": "IBB Valencia",
         "family": "Castillo",
-        "location": "Valencia",
+        "location": "Valencia, Carabobo",
         "img": "./familyPictures/valencia.jpg"
     },
     {
@@ -54,5 +54,12 @@
         "family": "Toro",
         "location": "Caripito, Monagas",
         "img": "./familyPictures/caripito.jpg"
+    },
+    {
+        "id": "puertoAyacucho",
+        "name": "Igleisa Biblica Bautista de Puerto Ayacucho",
+        "family": "Hernandez",
+        "location": "Puerto Ayacucho, Amazonas",
+        "img": "./familyPictures/puertoAyacucho.jpg"
     }
 ]
