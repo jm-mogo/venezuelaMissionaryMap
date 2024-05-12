@@ -39,7 +39,11 @@ function createCart(church) {
     CART.innerHTML = `
         <span class="close" onclick="closeModal()">&times;</span>
         <p class="churchName">${church.name}</p>
-        <p>Location: ${church.location}</p>
+        <div class="location"> 
+        <span class="locationIcon"></span>
+        <p> ${church.location}</p>
+        </div>
+        
         <img src="${church.img}" alt="family" class="family-picture">
         <p>Family: ${church.family}</p>
     `;

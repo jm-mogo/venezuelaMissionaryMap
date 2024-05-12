@@ -35,7 +35,7 @@
 
 .family-picture {
     max-width: 70%;
-    max-height: 70%;
+    max-height: 300px;
 }
 
 .modal {
@@ -53,7 +53,7 @@
 
 .info {
     margin: 40px auto;
-    gap: 10px;
+    gap: 18px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -61,13 +61,28 @@
     border: 1px solid #888;
     border-radius: 10px;
     width: 90%; 
-    height: 80vh;
+    padding-bottom: 20px;
+    /* height: 80vh; */
     max-width: 600px;
 }
 
 .churchName {
     font-size: 2rem;
     font-weight: bold;
+}
+
+.location {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.locationIcon {
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    background-image: url("./icons/location.png");
+    background-size: cover;
 }
 
 /* The Close Button */
