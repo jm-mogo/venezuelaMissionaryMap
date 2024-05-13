@@ -32,6 +32,13 @@
                 "location": "La Mariposa",
                 "locationUrl": "https://maps.app.goo.gl/4MoDyetcXnDUmw2GA",
                 "img": "./familyPictures/laMariposa.jpg"
+            },
+            {
+                "id": "catia",
+                "name": "Iglesia Bautista Torre Fuerte",
+                "family": "Montilla",
+                "location": "Catia",
+                "img": "./familyPictures/catia.jpg"
             }
         ]
     },
