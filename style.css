@@ -104,6 +104,27 @@
     background-size: cover;
 }
 
+.socialSection {
+    margin-top: 20px;
+    display: flex;
+    gap: 32px;
+}
+
+.socialMedia {
+    width: 40px;
+    height: 40px;
+}
+
+.instagram {
+    background-image: url("./icons/instagram.png");
+    background-size: cover;
+}
+
+.facebook {
+    background-image: url("./icons/facebook.png");
+    background-size: cover;
+}
+
 /* The Close Button */
 .closeAndBackBtn {
     display: flex;

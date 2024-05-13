@@ -30,7 +30,7 @@ function clickPoint(e) {
 
 function printPoints(states) {
     let map = document.getElementById("map");
-    for (let i = 0; i <= states.length; i++) {
+    for (let i = 0; i <= states.length - 1; i++) {
         let point = document.createElement("div");
         point.className = "state";
         point.id = states[i].id;
@@ -46,6 +46,7 @@ function createChurchCard(church, backId) {
     CARD.append(createLocationSection(church.location, church.locationUrl));
     CARD.append(createFamilyImg(church.img));
     CARD.append(createFamilyName(church.family));
+    CARD.append(createSocialMediaSection(church.socials));
 }
 
 function createMultiChurchCard(state) {
@@ -55,6 +56,28 @@ function createMultiChurchCard(state) {
     for (let i = 0; i <= state.churches.length - 1; i++) {
         CARD.append(createChurchBox(state.churches[i], state.id));
     }
+}
+
+function createSocialMediaSection(socials) {
+    if (!socials) {
+        return "";
+    }
+    const socialsSection = document.createElement("div");
+    socialsSection.classList = "socialSection";
+
+    socials.forEach((social) => {
+        const socialMedia = document.createElement("div");
+        socialMedia.classList = `socialMedia ${social.name}`;
+
+        const link = document.createElement("a");
+        link.setAttribute("href", social.socialUrl);
+        link.setAttribute("target", "_blank");
+
+        link.append(socialMedia);
+        socialsSection.append(link);
+    });
+
+    return socialsSection;
 }
 
 function createChurchBox(church, backId) {

@@ -17,7 +17,17 @@
                 "family": "Paez",
                 "location": "Vista Alegre",
                 "locationUrl": "https://maps.app.goo.gl/PboYpmG1gFyaP4FZ8",
-                "img": "./familyPictures/caracas.jpg"
+                "img": "./familyPictures/caracas.jpg",
+                "socials": [
+                    {
+                        "name": "instagram",
+                        "socialUrl": "https://www.instagram.com/iglesiabbva/"
+                    },
+                    {
+                        "name": "facebook",
+                        "socialUrl": "https://www.facebook.com/IglesiaBBVistaAlegre"
+                    }
+                ]
             },
             {
                 "id": "lasAdjuntas",
@@ -71,7 +81,17 @@
         "family": "Castillo",
         "location": "Valencia, Carabobo",
         "locationUrl": "https://maps.app.goo.gl/EgmizJ2twRWQM3vJ8",
-        "img": "./familyPictures/valencia.jpg"
+        "img": "./familyPictures/valencia.jpg",
+        "socials": [
+            {
+                "name": "instagram",
+                "socialUrl": "https://www.instagram.com/ibbvalencia/"
+            },
+            {
+                "name": "facebook",
+                "socialUrl": "https://www.facebook.com/IglesiaBiblicaBautistaValencia"
+            }
+        ]
     },
     {
         "id": "tachira",
@@ -101,5 +121,26 @@
         "family": "Parra",
         "location": "San Fernando de Apure",
         "img": "./familyPictures/sanFernando.jpg"
+    },
+    {
+        "id": "miranda",
+        "name": "Miranda",
+        "multiChurchState": true,
+        "churches": [
+            {
+                "id": "cua",
+                "name": "Igleisa Bautista de Cua",
+                "family": "Echeto",
+                "location": "Cua",
+                "img": "./familyPictures/cua.jpg"
+            },
+            {
+                "id": "losTeques",
+                "name": "Igleisa Bautista de Los Teques",
+                "family": "Main",
+                "location": "Los Teques",
+                "img": "./familyPictures/losTeques.jpg"
+            }
+        ]
     }
 ]

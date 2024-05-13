@@ -4,12 +4,12 @@
 }
 
 #caracas {
-    top: 23%;
+    top: 22%;
     left: 48%;
 }
 
 #laGuaira {
-    top: 16%;
+    top: 15%;
     left: 48%;
 }
 #maracaibo {
@@ -23,7 +23,7 @@
 }
 
 #valencia {
-    top: 10%;
+    top: 9%;
     left: 40%;
 }
 
@@ -45,4 +45,9 @@
 #sanFernando {
     top: 12%;
     left: 42%;
+}
+
+#miranda {
+    top: -4%;
+    left: 47%;
 }
