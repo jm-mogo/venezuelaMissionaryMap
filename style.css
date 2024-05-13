@@ -42,6 +42,9 @@
 .family-picture {
     max-width: 70%;
     max-height: 300px;
+
+    min-height: 200px;
+    min-width: 200px;
 }
 
 .modal {

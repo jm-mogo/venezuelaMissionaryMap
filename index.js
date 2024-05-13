@@ -51,6 +51,7 @@ function createChurchCard(church, backId) {
 function createMultiChurchCard(state) {
     CARD.innerHTML = "";
     CARD.append(createCloseBtn());
+    CARD.append(createTitle(state.name));
     for (let i = 0; i <= state.churches.length - 1; i++) {
         CARD.append(createChurchBox(state.churches[i], state.id));
     }

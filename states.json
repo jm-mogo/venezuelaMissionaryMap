@@ -8,6 +8,7 @@
     },
     {
         "id": "caracas",
+        "name": "Caracas",
         "multiChurchState": true,
         "churches": [
             {
@@ -93,5 +94,12 @@
         "family": "Hernandez",
         "location": "Puerto Ayacucho, Amazonas",
         "img": "./familyPictures/puertoAyacucho.jpg"
+    },
+    {
+        "id": "sanFernando",
+        "name": "Igleisa Bautista Casa de Dios",
+        "family": "Parra",
+        "location": "San Fernando de Apure",
+        "img": "./familyPictures/sanFernando.jpg"
     }
 ]
