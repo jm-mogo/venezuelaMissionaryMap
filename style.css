@@ -142,4 +142,10 @@ cursor: pointer;
         width: 3.1vw;
         height: 3.1vw;
     }
+    .closeAndBackBtn {
+        gap: 70%;
+    }
+    .backBtn {
+        align-self: center;
+    }
 }
