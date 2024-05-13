@@ -42,7 +42,13 @@
                 "family": "Guzman",
                 "location": "La Mariposa",
                 "locationUrl": "https://maps.app.goo.gl/4MoDyetcXnDUmw2GA",
-                "img": "./familyPictures/laMariposa.jpg"
+                "img": "./familyPictures/laMariposa.jpg",
+                "socials": [
+                    {
+                        "name": "facebook",
+                        "socialUrl": "https://www.facebook.com/IglesiaBautistaTemplodeDios/"
+                    }
+                ]
             },
             {
                 "id": "catia",
@@ -130,7 +136,7 @@
             {
                 "id": "cua",
                 "name": "Igleisa Bautista de Cua",
-                "family": "Echeto",
+                "family": "Rojas",
                 "location": "Cua",
                 "img": "./familyPictures/cua.jpg"
             },
