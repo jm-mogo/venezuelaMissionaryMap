@@ -72,6 +72,15 @@
     max-width: 600px;
 }
 
+.churchBox {
+    width: 80%;
+    text-align: center;
+    background-color: antiquewhite;
+    border: solid 1px black;
+    padding: 5px;
+    cursor: pointer;
+}
+
 .churchName {
     font-size: 2rem;
     font-weight: bold;
@@ -93,14 +102,25 @@
 }
 
 /* The Close Button */
-.close {
-    align-self: flex-end;
+.closeAndBackBtn {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 80%;
+    width: 100%;
     color: #5c5c5c;
     float: right;
     font-size: 4rem;
     font-weight: bold;
     margin-right: 20px;
 }
+
+.backBtn {
+    cursor: pointer;
+    font-size: 3rem;
+    align-self: flex-end;
+}
+
 
 .close:hover,
 .close:focus {

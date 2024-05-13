@@ -8,11 +8,24 @@
     },
     {
         "id": "caracas",
-        "name": "IBBVA",
-        "family": "Paez",
-        "location": "Caracas",
-        "locationUrl": "https://maps.app.goo.gl/PboYpmG1gFyaP4FZ8",
-        "img": "./familyPictures/caracas.jpg"
+        "multiChurchState": true,
+        "churches": [
+            {
+                "id": "vistaAlegre",
+                "name": "IBBVA",
+                "family": "Paez",
+                "location": "Vista Alegre",
+                "locationUrl": "https://maps.app.goo.gl/PboYpmG1gFyaP4FZ8",
+                "img": "./familyPictures/caracas.jpg"
+            },
+            {
+                "id": "lasAdjuntas",
+                "name": "Iglesia Bautista de Las Adjuntas",
+                "family": "Mata",
+                "location": "Las Adjuntas",
+                "img": "./familyPictures/lasAdjuntas.jpg"
+            }
+        ]
     },
     {
         "id": "laGuaira",
