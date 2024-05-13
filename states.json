@@ -24,6 +24,14 @@
                 "family": "Mata",
                 "location": "Las Adjuntas",
                 "img": "./familyPictures/lasAdjuntas.jpg"
+            },
+            {
+                "id": "laMariposa",
+                "name": "Iglesia Bautista Templo de Dios",
+                "family": "Guzman",
+                "location": "La Mariposa",
+                "locationUrl": "https://maps.app.goo.gl/4MoDyetcXnDUmw2GA",
+                "img": "./familyPictures/laMariposa.jpg"
             }
         ]
     },
