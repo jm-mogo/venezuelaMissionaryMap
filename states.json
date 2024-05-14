@@ -103,11 +103,11 @@
         "img": "./familyPictures/maracaibo.jpg"
     },
     {
-        "id": "margarita",
+        "id": "juangriego",
         "name": "Iglesia Bautista de Juangriego",
         "family": "Bolivar",
         "location": "Margarita",
-        "img": "./familyPictures/margarita.jpg"
+        "img": "./familyPictures/juangriego.jpg"
     },
     {
         "id": "valencia",
