@@ -73,7 +73,7 @@
         "churches": [
             {
                 "id": "laGuaira",
-                "name": "IBB La Espada",
+                "name": "Iglesia Bautista La Espada",
                 "family": "Ramirez",
                 "location": "La Guaira",
                 "locationUrl": "https://maps.app.goo.gl/eUBhhZpb8uyDKyKC7",
@@ -85,6 +85,13 @@
                 "family": "Perez",
                 "location": "Carayaca",
                 "img": "./familyPictures/carayaca.jpg"
+            },
+            {
+                "id": "catialaMar",
+                "name": "Iglesia Bautista Roca Firme",
+                "family": "Diaz",
+                "location": "Catia La Mar",
+                "img": "./familyPictures/catiaLaMar.jpg"
             }
         ]
     },
