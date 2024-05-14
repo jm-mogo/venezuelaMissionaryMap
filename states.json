@@ -172,9 +172,10 @@
     },
     {
         "id": "cua",
-        "name": "Igleisa Bautista de Cua",
+        "name": "Igleisa Biblica Bautista La Preciosa Semilla",
         "family": "Rojas",
         "location": "Cua",
+        "locationUrl": "https://maps.app.goo.gl/Y2STAcXG8smCGxp98",
         "img": "./familyPictures/cua.jpg"
     },
     {
