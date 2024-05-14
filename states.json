@@ -59,10 +59,20 @@
             },
             {
                 "id": "kennedy",
-                "name": "Iglesia Bautista de Kennedy",
+                "name": "Iglesia Bautista La Esperanza",
                 "family": "Becerra",
                 "location": "Keneddy",
-                "img": "./familyPictures/kennedy.jpg"
+                "img": "./familyPictures/kennedy.jpg",
+                "socials": [
+                    {
+                        "name": "facebook",
+                        "socialUrl": "https://www.facebook.com/IBBLAESPERANZA"
+                    },
+                    {
+                        "name": "instagram",
+                        "socialUrl": "https://www.instagram.com/ibblaesperanza/"
+                    }
+                ]
             }
         ]
     },
