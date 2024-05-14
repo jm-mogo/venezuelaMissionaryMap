@@ -67,12 +67,26 @@
         ]
     },
     {
-        "id": "laGuaira",
-        "name": "IBB La Espada",
-        "family": "Ramirez",
-        "location": "La Guaira",
-        "locationUrl": "https://maps.app.goo.gl/eUBhhZpb8uyDKyKC7",
-        "img": "./familyPictures/laGuaira.jpg"
+        "id": "vargas",
+        "name": "Vargas",
+        "multiChurchState": true,
+        "churches": [
+            {
+                "id": "laGuaira",
+                "name": "IBB La Espada",
+                "family": "Ramirez",
+                "location": "La Guaira",
+                "locationUrl": "https://maps.app.goo.gl/eUBhhZpb8uyDKyKC7",
+                "img": "./familyPictures/laGuaira.jpg"
+            },
+            {
+                "id": "carayaca",
+                "name": "Iglesia Bautista La Antorcha",
+                "family": "Perez",
+                "location": "Carayaca",
+                "img": "./familyPictures/carayaca.jpg"
+            }
+        ]
     },
     {
         "id": "maracaibo",
