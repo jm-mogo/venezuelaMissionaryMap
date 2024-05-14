@@ -148,5 +148,12 @@
         "family": "Rojas",
         "location": "Cua",
         "img": "./familyPictures/cua.jpg"
+    },
+    {
+        "id": "guacara",
+        "name": "Igleisa Bautista de Guacara",
+        "family": "Quilarque",
+        "location": "Guacara",
+        "img": "./familyPictures/guacara.jpg"
     }
 ]
