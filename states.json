@@ -180,9 +180,19 @@
     },
     {
         "id": "guacara",
-        "name": "Igleisa Bautista de Guacara",
+        "name": "Iglesia Bíblica Bautista Libertad",
         "family": "Quilarque",
         "location": "Guacara",
-        "img": "./familyPictures/guacara.jpg"
+        "img": "./familyPictures/guacara.jpg",
+        "socials": [
+            {
+                "name": "instagram",
+                "socialUrl": "https://www.instagram.com/ibbl_2003"
+            },
+            {
+                "name": "facebook",
+                "socialUrl": "https://www.facebook.com/IBBLIBERTAD/"
+            }
+        ]
     }
 ]
