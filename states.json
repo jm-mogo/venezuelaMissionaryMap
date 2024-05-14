@@ -56,6 +56,13 @@
                 "family": "Montilla",
                 "location": "Catia",
                 "img": "./familyPictures/catia.jpg"
+            },
+            {
+                "id": "kennedy",
+                "name": "Iglesia Bautista de Kennedy",
+                "family": "Becerra",
+                "location": "Keneddy",
+                "img": "./familyPictures/kennedy.jpg"
             }
         ]
     },
