@@ -148,5 +148,12 @@
                 "img": "./familyPictures/losTeques.jpg"
             }
         ]
+    },
+    {
+        "id": "cumana",
+        "name": "Igleisa Biblica Bautista de Cumana",
+        "family": "Orellana",
+        "location": "Cumana",
+        "img": "./familyPictures/cumana.jpg"
     }
 ]
